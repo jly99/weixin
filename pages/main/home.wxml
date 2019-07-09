@@ -1,0 +1,24 @@
+<map id="mainMap" show-location='true' class='MainMap' controls="{{controls}}" bindcontroltap='controlsTap' bindregionchange='regionchange'>
+
+</map>
+
+
+<view class='FilterBar'>
+  <image src="/images/home_user.png" class='UserButton' mode='aspectFit' bindtap='userClick'></image>
+   <image src="/images/home_list.png" class='ListButton' mode='aspectFit' bindtap='home_listClick'></image> 
+  <view class='UserVerticalLine'></view>
+
+  <scroll-view class='FilterScrollView' scroll-x='true'>
+    <view class='FilterButton_1'>发起打伞</view>
+    <view bindtap='toList' class='FilterButton_2'>寻找打伞</view>
+    <view class='FilterButton_3' bindtap='tomyList'>我的打伞</view>
+  </scroll-view>
+
+</view>
+
+
+<view class='ControlPad'>
+  <view class='addressView'>我在：{{current_address}}附近</view>
+</view>
+
+<view class='enterButton' bindtap='enterClick'>立即发起</view>

@@ -1,0 +1,304 @@
+.FilterBar {
+  position: fixed;
+  width: 100%;
+  top: 0rpx;
+  height: 6%;
+  background: white;
+  box-shadow: 0 2rpx 3rpx rgba(20, 20, 20, 0.1);
+}
+
+.barButton_1 {
+  left: 25%;
+  width: 25%;
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  height: 75%;
+  color: lightgray;
+  font-weight: bold;
+  font-size: 32rpx;
+  line-height: 100%;
+}
+
+.barButton_2 {
+  right: 25%;
+  width: 25%;
+  text-align: right;
+  position: absolute;
+  top: 10%;
+  height: 75%;
+  font-weight: bold;
+  font-size: 32rpx;
+  line-height: 100%;
+}
+
+.mainView {
+  position: absolute;
+  top: 6%;
+  width: 100%;
+  height: 94%;
+  background-color: #f1f1f1;
+}
+
+.rowView {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #fff;
+  margin: 32rpx 4% 32rpx 4%;
+  width: 92%;
+  height: 520rpx;
+  box-shadow: 0 10rpx 15rpx rgba(20, 20, 20, 0.1);
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.detailButton {
+  position: absolute;
+  background-color: #333;
+  top: 428rpx;
+  height: 72;
+  width: 80%;
+  left: 10%;
+  color: white;
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 72rpx;
+  border-radius: 36rpx;
+}
+
+.rowViewTitleLine {
+  position: absolute;
+  background-color: #333;
+  left: 28rpx;
+  top: 30rpx;
+  width: 10rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+}
+
+.positionStyle {
+  position: absolute;
+  left: 56rpx;
+  top: 30rpx;
+  width: 90%;
+  height: 40rpx;
+  border-radius: 4rpx;
+}
+
+.rowViewMessage {
+  position: absolute;
+  color: #555;
+  left: 56rpx;
+  top: 200rpx;
+  border-radius: 4rpx;
+  line-height: 40rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.rowViewTime {
+  position: absolute;
+  color: #555;
+  left: 56rpx;
+  top: 250rpx;
+  border-radius: 4rpx;
+  line-height: 40rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.startTimeLabel {
+  text-align: left;
+  position: absolute;
+  color: #666;
+  left: 28rpx;
+  top: 100rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+}
+
+.startDateLabel {
+  text-align: left;
+  position: absolute;
+  color: #888;
+  left: 28rpx;
+  top: 148rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 24rpx;
+}
+
+.timeIcon {
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  top: 180rpx;
+  left: 50%;
+  margin-left: -16rpx;
+}
+
+.location {
+  position: absolute;
+  width: 100%;
+  height: 40rpx;
+  left: 48rpx;
+  top: 30rpx;
+  color: #333;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+
+.endTimeLabel {
+  position: absolute;
+  color: #666;
+  right: 0rpx;
+  top: 100rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: left;
+}
+
+.teacherLabel {
+  position: absolute;
+  color: #555;
+  left: 28rpx;
+  top: 200rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  text-align: left;
+  font-weight: bold;
+}
+
+.startTestButton {
+  position: absolute;
+  background-color: #4e84e5;
+  left: 10%;
+  width: 80%;
+  top: 280rpx;
+  height: 80rpx;
+  text-align: center;
+  color: white;
+  border-radius: 40rpx;
+  line-height: 80rpx;
+}
+
+.pictureText {
+  position: absolute;
+  width: 128rpx;
+  top: 280rpx;
+  height: 120rpx;
+  left: 6%;
+  color: #333;
+  border-radius: 4rpx;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.image_box {
+  position: absolute;
+  width: 64%;
+  top: 280rpx;
+  height: 120rpx;
+  left: 32%;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 2rpx;
+  display: flex;
+}
+
+.imagebackgroundView {
+  width: 650rpx;
+}
+
+.imageView {
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #ddd;
+  border-width: 2rpx;
+}
+
+.picPre {
+  margin-right: 8rpx;
+}
+
+.picPre image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.picPre view {
+  position: absolute;
+  right: 0px;
+  top: -20rpx;
+  width: 15px;
+  height: 15px;
+  background: url(http://bmob-cdn-14867.b0.upaiyun.com/2017/11/23/b93323e440f4c3998034dbb9011a1e1d.png) no-repeat;
+  background-size: cover;
+}
+
+.avatarUrlStyle {
+  position: absolute;
+  width: 108rpx;
+  height: 100rpx;
+  top: 100rpx;
+  left: 6%;
+  border-radius: 50rpx;
+  box-shadow: 0rpx 0rpx 30rpx rgba(20, 20, 20, 0.3);
+}
+
+.nickNameStyle {
+  position: absolute;
+  color: black;
+  left: 6%;
+  top: 220rpx;
+  width: 100rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.messageStyle {
+  position: absolute;
+  color: black;
+  left: 32%;
+  top: 108rpx;
+  width: 64%;
+  height: 128rpx;
+  font-size: 28rpx;
+  text-align: left;
+}
+
+.timeStyle {
+  position: absolute;
+  color: black;
+  left: 32%;
+  top: 220rpx;
+  width: 64%;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 26rpx;
+  text-align: left;
+}

@@ -1,0 +1,217 @@
+@import '/style/weui.wxss';
+@import '/style/zanui.wxss';
+
+
+
+.positionConfirm {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  height: 160rpx;
+
+}
+
+.positionLine {
+
+  width: 100%;
+  height: 4rpx;
+
+  margin-bottom: 50rpx;
+}
+.posiImg {
+position: absolute;
+top: 50rpx;
+width: 50rpx;
+height: 50rpx;
+
+}
+.positionText {
+position: absolute;
+top: 40rpx;
+left: 100rpx;
+width: 80%;
+height: 100rpx;
+font-size: 26rpx;
+}
+.topStyle {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  height: 300rpx;
+  background-color: #f3f3f3;
+  border: solid;
+  border-color: #bbbbbb;
+  border-width: 2rpx;
+}
+
+.centerStyle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60rpx
+}
+
+.bottomStyle1 {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomStyle2 {
+  margin-left: 3%;
+  margin-right: 3%;
+  width: 94%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50rpx;
+}
+
+.bottomStyle3 {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 50rpx;
+}
+
+.message {
+  margin-left: 3%;
+  margin-right:3%;
+  width: 94%;
+  text-align: left;
+  font-size: 30rpx;
+}
+.textarea {
+
+  margin-left: 3%;
+  margin-right:3%;
+  width: 94%;
+  font-size: 30rpx;
+    height: 210rpx;
+}
+.buy {
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  /* margin-left: 20rpx; */
+  margin-top: 10rpx;
+}
+
+.bellowMessage1 {
+  margin-left: 50rpx;
+  font-size: 30rpx;
+}
+
+.bellowMessage2 {
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+  font-size: 30rpx;
+}
+
+.addressStyle {
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 98%;
+  font-size: 30rpx;
+
+  border-bottom: solid;
+  border-width: 2rpx;
+  border-color: #bbbbbb;
+}
+
+.switchStyle {
+  margin-left: 20rpx;
+}
+
+.buttonStyle {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  background-color: #202020;
+  color: white;
+}
+ 
+.often {
+  font-size: 30rpx;
+  margin-left: 150rpx;
+  background-color: black;
+  color: white;
+}
+
+.image_box {
+  width: 90%;
+  top: 400rpx;
+  height: 160rpx;
+  /* left: 32%; */
+  margin-left: 40rpx;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 4rpx;
+  display: flex;
+}
+
+.picPre {
+  /* width: 50%;
+  position: relative;
+  box-sizing: border-box; */
+
+  margin-right: 4rpx;
+}
+
+.picPre image {
+  width: 160rpx; 
+  height: 160rpx;
+}
+
+.picPre view {
+  position: absolute;
+  right: 0px;
+   top: -0rpx; 
+  width: 15px;
+  height: 15px;
+  background: url(http://bmob-cdn-14867.b0.upaiyun.com/2017/11/23/b93323e440f4c3998034dbb9011a1e1d.png) no-repeat;
+  background-size: cover;
+}
+
+.add_pic {
+  padding: 0 40rpx;
+  background: #fff;
+}
+
+.add_pic view {
+  display: inline-block;
+  margin-top: 20rpx;
+  width: 430rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+  background: url(http://bmob-cdn-14867.b0.upaiyun.com/2017/11/23/e93d28a14095af18801d3c1c68e08fe7.png) no-repeat left center;
+  background-size: 160rpx auto;
+  padding-left: 80rpx;
+  color: #b2b2b2;
+}
+.add_pic .code {
+  display: inline-block;
+  margin-top: 20rpx;
+  width: 430rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  text-align: center;
+  background: url(http://bmob-cdn-14867.b0.upaiyun.com/2017/11/23/e93d28a14095af18801d3c1c68e08fe7.png) no-repeat left center;
+  background-size: 160rpx auto;
+  padding-left: 130rpx;
+  color: #b2b2b2;
+}
+ 
+.imageView {
+  display: inline-block;
+  width: 160rpx;
+  height: 160rpx;
+  position: relative;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #ddd;
+  border-width: 2rpx;
+}
+
+.imagebackgroundView {
+  width: 850rpx;
+}

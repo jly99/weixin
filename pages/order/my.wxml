@@ -1,0 +1,49 @@
+<!--pages/ChooseTest/ChooseTest.wxml-->
+
+<view class="mainView">
+
+  <block wx:for="{{orderList}}" wx:key="*order">
+
+    <view class='rowView'>
+      <view class='rowViewTitleLine'></view>
+
+
+      <view class='location'>{{item.position_detail}}</view>
+
+      <image class='avatarUrlStyle' src='{{item.avatarUrl}}' mode='aspectFill'></image>
+      <view class='nickNameStyle'>{{item.nickName}}</view>
+      <view class='timeStyle'>{{item.createdAt}}</view>
+      <view class='messageStyle'>伞友留言： {{item.message}}</view>
+      <view class='pictureText'>附图：</view>
+
+      <scroll-view wx:if="{{item.picPaths}}" class="image_box" scroll-x>
+        <view class='imagebackgroundView'>
+          <view wx:for="{{item.picPaths}}" wx:key="picPaths" class='imageView'>
+            <view class="picPre">
+              <image src="{{item}}" mode="aspectFit" bindtap='preImg' data-img='{{item}}'></image>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+
+
+      <view class='detailButton' bindtap='detailClick' data-objid='{{item.objectId}}'>查看详细</view>
+    </view>
+
+
+
+  </block>
+
+</view>
+
+<view class='FilterBar'>
+  <block wx:if="{{isFilterByMe}}">
+    <view class='barButton_1' style='color: #FF8B03;' bindtap='barButtonClick_1'>我发出的</view>
+    <view class='barButton_2' style='color: #000000;' bindtap='barButtonClick_2'>我参与的</view>
+  </block>
+  <block wx:else>
+    <view class='barButton_1' style='color: #000000;' bindtap='barButtonClick_1'>我发出的</view>
+    <view class='barButton_2' style='color: #FF8B03;' bindtap='barButtonClick_2'>我参与的</view>
+  </block>
+
+</view>

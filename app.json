@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/login/register",
+    "pages/main/home",
+    "pages/logs/logs",
+    "pages/user/Auth",
+    "pages/user/Member",
+    "pages/order/create",
+    "pages/order/list",
+    "pages/order/detail",
+    "pages/chat/chatroom",
+    "pages/order/my",
+    "pages/aboutUs/aboutUs",
+    "pages/survey/survey",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  }
+}

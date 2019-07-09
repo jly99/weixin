@@ -1,0 +1,159 @@
+page {
+  background-color: white;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  height: 60rpx;
+  top: 120rpx;
+  text-align: center;
+  font-size: 60rpx;
+}
+
+.inputView {
+  position: absolute;
+  width: 80%;
+  height: 460rpx;
+  top: 360rpx;
+  left: 10%;
+  background-color: white;
+}
+
+.userName {
+  position: absolute;
+  width: 90%;
+  height: 110rpx;
+  top: -90rpx;
+  left: 5%;
+  font-size: 36rpx;
+  color: #333;
+  text-align: center;
+}
+
+.phoneNumber {
+  position: absolute;
+  width: 90%;
+  height: 110rpx;
+  top: 20rpx;
+  left: 5%;
+  font-size: 36rpx;
+  color: #333;
+  text-align: center;
+}
+
+.password {
+  position: absolute;
+  width: 90%;
+  height: 110rpx;
+  top: 140rpx;
+  left: 5%;
+  font-size: 36rpx;
+  color: #333;
+  text-align: center;
+}
+
+.email {
+  position: absolute;
+  width: 90%;
+  height: 110rpx;
+  top: 250rpx;
+  left: 5%;
+  font-size: 36rpx;
+  color: #333;
+  text-align: center;
+}
+
+.userNameLine {
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  top: 10rpx;
+  background-color: lightgray;
+}
+
+.phoneNumberLine {
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  top: 119rpx;
+  background-color: lightgray;
+}
+
+.passwordLine {
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  top: 239rpx;
+  background-color: lightgray;
+}
+
+.emailLine {
+  position: absolute;
+  width: 100%;
+  height: 2rpx;
+  top: 359rpx;
+  background-color: lightgray;
+}
+
+.registertton {
+  position: absolute;
+  width: 80%;
+  height: 100rpx;
+  top: 700rpx;
+  left: 10%;
+  background-image: -webkit-linear-gradient(10deg, #ff2176, #ff5345);
+  border-radius: 50rpx;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 34rpx;
+}
+
+.registertton_disable {
+  position: absolute;
+  width: 80%;
+  height: 100rpx;
+  top: 700rpx;
+  left: 10%;
+  background: lightgray;
+  border-radius: 50rpx;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 34rpx;
+}
+
+.loginButton {
+  position: absolute;
+  width: 80%;
+  height: 96rpx;
+  top: 820rpx;
+  left: 10%;
+  border-radius: 48rpx;
+  color: #ff2176;
+  text-align: center;
+  line-height: 96rpx;
+  font-size: 30rpx;
+}
+
+.registerLine {
+  position: absolute;
+  width: 80%;
+  height: 2rpx;
+  bottom: 51rpx;
+  left: 10%;
+  background-color: #bbb;
+}
+
+.homeButton {
+  position: absolute;
+  width: 20%;
+  height: 40rpx;
+  bottom: 30rpx;
+  left: 40%;
+  color: #555;
+  background-color: white;
+  text-align: center;
+  font-size: 24rpx;
+}

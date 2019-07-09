@@ -1,0 +1,14 @@
+<text class='title'>登陆帐号</text>
+<view class='inputView'>
+    <input class='phoneNumber' placeholder="请输入用户名" type="text" bindinput="username_input"></input>
+    <input class='password' placeholder="请输入密码" password='true' bindinput="password_input"></input>
+    <view class='phoneNumberLine'></view>
+
+</view>
+
+
+<view class='enterButton' bindtap="log_in" >登录</view>
+
+
+<view class='registerLine'></view>
+<view class='homeButton'  bindtap="To_register"> 注册 </view>

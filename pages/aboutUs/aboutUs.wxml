@@ -1,0 +1,22 @@
+<view>
+  <view class='topContainer'>
+    <image class='logo' src="/images/logo.jpg" mode='aspectFill'></image>
+    <text class='title'>一起打伞吧</text>
+    <text class='subtitle'>共享打伞小程序</text>
+    <view class='lineView'></view>
+  </view>
+
+  <view class='midContainer'>
+    <text class='versions'>版本号</text>
+    <text class='versions-font'>1.0.1</text>
+    <text class='statement'>平台说明</text>
+    <view class='statement-detail'>
+      <text>滴滴打伞，为您寻找附近伞友，实现供需双方快速匹配，资源优化配置。</text>
+    </view>
+  </view>
+
+  <view class='tips'>
+    <text>Tips:  </text>
+    <text class='tip'>进入小程序后，点击地图左下角按钮刷新自身位置。</text>
+  </view>
+</view>

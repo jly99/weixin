@@ -1,0 +1,39 @@
+<scroll-view class="scrollView" bindscroll="" scroll-y="true">
+
+  <view class='memberView'>
+    <image src="{{avatarUrl}}" class="avatar" mode='aspectFill'></image>
+    <text class="nickName">{{nickName}}</text>
+  </view>
+
+  <view bindtap='toAboutUs' class='rowView'>
+    <text class='rowTitle'>关于我们</text>
+    <view class='set-arrow'></ view>
+    </view>
+    <view class='rowLine'></view>
+
+    <view bindtap='toSurvey' class='rowView'>
+      <text class='rowTitle'>满意度调查</text>
+      <view class='set-arrow'></ view>
+      </view>
+      <view class='rowLine'></view>
+
+      <view bindtap='toFeedback' class='rowView'>
+        <text class='rowTitle'>我要吐槽</text>
+        <view class='set-arrow'></ view>
+        </view>
+        <view class='rowLine'></view>
+
+        <view bindtap='log_out' class='rowView'>
+          <text class='rowTitle'>退出登录</text>
+          <view class='set-arrow'></ view>
+          </view>
+          <view class='rowLine'></view>
+
+          <view bindtap='homeButtonClick' class='rowView'>
+          <text class='rowTitle'>返回主页面</text>
+          <view class='set-arrow'></ view>
+          </view>
+          <view class='rowLine'></view>
+
+          <view class='bottomView'></view>
+</scroll-view>

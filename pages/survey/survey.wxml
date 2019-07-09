@@ -1,0 +1,22 @@
+<form class='container' bindsubmit="surveySubmit">
+  <view class='text'>
+    <text>您是否会向您的朋友推荐一起打伞？</text>
+  </view> 
+
+  <view class='options'>
+    <view  class='interval'>
+      <button bindtap='ceshi' form-type="submit" class='options-button' hover-class='hover-button' data-index="1" >非常愿意</button>
+    </view>
+    <view class='interval'>
+     <button bindtap='ceshi' form-type="submit" class='options-button' hover-class='hover-button' data-index="2" >愿意</button>
+    </view>
+    <view class='interval'>
+      <button bindtap='ceshi' form-type="submit" class='options-button' hover-class='hover-button' data-index="3" >看心情</button>
+    </view>
+    <view class='interval'>
+      <button bindtap='ceshi' form-type="submit" class='options-button' hover-class='hover-button' data-index="4" >不愿意</button>
+    </view>
+  </view>
+
+
+</form>

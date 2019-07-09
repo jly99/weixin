@@ -1,0 +1,177 @@
+/* pages/express/express.wxss */
+
+.scrollView {
+  background-color: #dfdfdf;
+  height: 100%;
+  width: 100%;
+}
+
+.memberView {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 300rpx;
+}
+
+.member-background {
+  position: absolute;
+  width: 100%;
+  height: 300rpx;
+}
+
+.avatar {
+  position: absolute;
+  width: 128rpx;
+  height: 128rpx;
+  top: 72rpx;
+  /* 居中的技巧 */
+  left: 50%;
+  margin-left: -64rpx;
+  /* 居中的技巧 */
+  border-radius: 64rpx;
+}
+
+.nickName {
+  position: absolute;
+  width: 128rpx;
+  height: 40rpx;
+  top: 220rpx;
+  /* 居中的技巧 */
+  left: 50%;
+  margin-left: -64rpx;
+  /* 居中的技巧 */
+  font-size: 32rpx;
+  text-align: center;
+  color: #ddd;
+}
+
+.loginButton {
+  background-color: rgba(20, 20, 20, 0);
+  position: absolute;
+  width: 200rpx;
+  height: 200rpx;
+  top: 72rpx;
+  /* 居中的技巧 */
+  left: 50%;
+  margin-left: -100rpx;
+  /* 居中的技巧 */
+}
+
+.menuView1 {
+  position: absolute;
+  width: 33.333%;
+  top: 300rpx;
+  height: 160rpx;
+  left: 0;
+}
+
+.menuView2 {
+  position: absolute;
+  width: 33.333%;
+  top: 300rpx;
+  height: 160rpx;
+  left: 33.333%;
+}
+
+.menuView3 {
+  position: absolute;
+  width: 33.333%;
+  top: 300rpx;
+  height: 160rpx;
+  left: 66.667%;
+}
+
+.menuCount {
+  position: absolute;
+  width: 64rpx;
+  height: 64rpx;
+  left: 50%;
+  top: 40%;
+  margin-left: -32rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #111;
+}
+
+.menuName {
+  position: absolute;
+  width: 128rpx;
+  height: 64rpx;
+  left: 50%;
+  top: 65%;
+  margin-left: -64rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #555;
+}
+
+.lineView {
+  position: absolute;
+  left: 100%;
+  background-color: #dfdfdf;
+  width: 2rpx;
+  height: 64rpx;
+  top: 45%;
+}
+
+.rowView {
+  position: relative;
+  background-color: #fff;
+  margin: 0rpx 0 0rpx 0;
+  width: 100%;
+  height: 100rpx;
+}
+
+.spaceView {
+  position: relative;
+  margin: 0 0 0 0;
+  width: 100%;
+  height: 20rpx;
+}
+
+.bottomView {
+  height: 600rpx;
+  width: 100%;
+}
+
+.rowLine {
+  position: relative;
+  background-color: #ebebf1;
+  margin: 0 5% 0 5%;
+  width: 90%;
+  height: 2rpx;
+}
+
+.rowTitle {
+  position: absolute;
+  width: 380rpx;
+  height: 48rpx;
+  top: 26rpx;
+  left: 6%;
+  font-size: 30rpx;
+  text-align: left;
+  padding: 5rpx;
+}
+
+.set-arrow {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  position: absolute;
+  right: 20px;
+  transform: rotate(45deg);
+  top: 20px;
+}
+
+.homeButton {
+  position: absolute;
+  width: 20%;
+  height: 40rpx;
+  /* bottom: -50rpx; */
+  left: 40%;
+  color: #555;
+  background-color: white;
+  text-align: center;
+  font-size: 24rpx;
+}

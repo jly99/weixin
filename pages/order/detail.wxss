@@ -1,0 +1,294 @@
+.mainView {
+position: absolute;
+height: 90%;
+width: 94%;
+left: 3%;
+top: 2%;
+  box-shadow: 0 5rpx 15rpx rgba(20, 20, 20, 0.3);
+}
+
+.rowView {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-color: #fff;
+  margin: 32rpx 4% 32rpx 4%;
+  width: 92%;
+  height: 520rpx;
+  box-shadow: 0 10rpx 15rpx rgba(20, 20, 20, 0.1);
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.enterButton {
+ position: absolute;
+ background-color: #333333;
+  bottom: 40rpx;
+ height: 100rpx;
+ width: 80%;
+ left: 10%;
+ color: white;
+ text-align: center;
+ font-size: 34rpx;
+ line-height: 100rpx;
+ border-radius: 50rpx;
+}
+.rowViewTitleLine {
+  position: absolute;
+  background-color: #333333;
+  left: 28rpx;
+  top: 30rpx;
+  width: 10rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+}
+
+.positionStyle {
+  position: absolute;
+  left: 56rpx;
+  top: 30rpx;
+  width: 90%;
+  height: 40rpx;
+  border-radius: 4rpx;
+}
+
+.rowViewMessage {
+  position: absolute;
+  color: #555;
+  left: 56rpx;
+  top: 200rpx;
+  border-radius: 4rpx;
+  line-height: 40rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.rowViewTime {
+  position: absolute;
+  color: #555;
+  left: 56rpx;
+  top: 250rpx;
+  border-radius: 4rpx;
+  line-height: 40rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.startTimeLabel {
+  text-align: left;
+  position: absolute;
+  color: #666;
+  left: 28rpx;
+  top: 100rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+}
+
+.startDateLabel {
+  text-align: left;
+  position: absolute;
+  color: #888;
+  left: 28rpx;
+  top: 148rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 24rpx;
+}
+
+.timeIcon {
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  top: 180rpx;
+  left: 50%;
+  margin-left: -16rpx;
+}
+
+.location {
+  position: absolute;
+  width:90%;
+  height: 40rpx;
+  left: 48rpx;
+  top: 30rpx;
+  color: #333333;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+
+.endTimeLabel {
+  position: absolute;
+  color: #666;
+  right: 0rpx;
+  top: 100rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
+
+
+
+
+.teacherLabel {
+  position: absolute;
+  color: #555;
+  left: 28rpx;
+  top: 200rpx;
+  width: 220rpx;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  text-align: left;
+  font-weight: bold;
+}
+
+.startTestButton {
+  position: absolute;
+  background-color: #4e84e5;
+  left: 10%;
+  width: 80%;
+  top: 280rpx;
+  height: 80rpx;
+  text-align: center;
+  color: white;
+  border-radius: 40rpx;
+  line-height: 80rpx;
+}
+
+.image_box {
+  position: absolute;
+  width: 88%;
+  top:600rpx;
+  height: 160rpx;
+  left: 6%;
+  border-style: solid;
+  border-color: #dddddd;
+  border-width: 2rpx;
+  display: flex;
+}
+.imagebackgroundView {
+  width: 800rpx;
+
+}
+.imageView {
+  display: inline-block;
+  width: 160rpx;
+  height: 160rpx;
+
+  position: relative;
+    border-left-style: solid;
+    border-right-style: solid;
+  border-color: #dddddd;
+  border-width: 2rpx;
+
+}
+.picPre {
+margin-right: 8rpx;
+
+}
+
+.picPre image {
+  width: 160rpx;
+  height: 160rpx;
+
+}
+
+.picPre view {
+  position: absolute;
+  right: 0px;
+  top: -20rpx;
+  width: 15px;
+  height: 15px;
+  background: url(http://bmob-cdn-14867.b0.upaiyun.com/2017/11/23/b93323e440f4c3998034dbb9011a1e1d.png) no-repeat;
+  background-size: cover;
+}
+
+.ownerAvatar {
+  position: absolute;
+  width: 128rpx;
+  height: 128rpx;
+  top: 160rpx;
+  left: 15%;
+  border-radius: 64rpx;
+  box-shadow: 0rpx 0rpx 30rpx rgba(20, 20, 20, 0.3);
+}
+.serverAvatar {
+  position: absolute;
+  width: 128rpx;
+  height: 128rpx;
+  top: 160rpx;
+  right: 15%;
+  border-radius: 64rpx;
+  box-shadow: 0rpx 0rpx 30rpx rgba(20, 20, 20, 0.3);
+}
+.avatarIcon {
+  position: absolute;
+  width: 128rpx;
+  height: 128rpx;
+  top: 160rpx;
+ left: 50%;
+ margin-left: -64rpx;
+
+}
+.owner_nickName {
+  position: absolute;
+  color: black;
+   left: 15%;
+  top: 300rpx;
+  width: 128rpx;
+  height: 40rpx;
+  font-size:30rpx;
+  text-align: center;
+
+}
+.server_nickName {
+  position: absolute;
+  color: black;
+   right: 15%;
+  top: 300rpx;
+  width: 128rpx;
+  height: 40rpx;
+  font-size:30rpx;
+  text-align: center;
+
+}
+.messageStyle {
+  position: absolute;
+  color: black;
+  left: 6%;
+  top: 380rpx;
+  width:88%;
+  height: 200rpx;
+  font-size: 30rpx;
+  text-align: left;
+ background-color: #f1f1f1;
+ border-style: solid;
+ border-width: 2rpx;
+ border-color: #cccccc;
+
+}
+.timeStyle {
+  position: absolute;
+  color: black;
+  left: 32%;
+  top: 220rpx;
+  width:64%;
+  height: 40rpx;
+  border-radius: 4rpx;
+  line-height: 48rpx;
+  font-size:26rpx;
+  text-align: left;
+}

@@ -1,0 +1,42 @@
+<form bindsubmit="formSubmit">
+  <view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">{{TopTips}}</view>
+  <view>
+
+    <view class='positionConfirm'>
+      <image src="/images/new_address.png" mode="aspectFit" class='posiImg'></image>
+      <view class='positionText'>{{confirmPosition}}</view> 
+    </view>
+
+
+    <image src="/images/lineBG.png" class='positionLine' mode="aspectFill"></image>
+    <view class='topStyle'>
+      <text class='message'>添加留言:</text>
+      <textarea class='textarea' bindinput='message_input' placeholder='位置描述、打赏小费等'></textarea>
+    </view>
+
+    <view class='centerStyle'> 
+      <view class="add_pic" bindtap="choseImg" wx-if="{{!isSrc}}">
+        <view>添加图片</view>
+      </view>
+
+      <scroll-view wx:if="{{isSrc}}" class="image_box" scroll-x>
+        <view class='imagebackgroundView'>
+          <view wx:for="{{urlArr}}" wx:key="urlArr" class='imageView'>
+            <view class="picPre">
+              <image bindtap='preImg' src="{{item}}" mode="aspectFit" data-img='{{item}}'></image>
+              <view data-index="{{index}}" bindtap="clearPic"></view>
+            </view>
+          </view>
+        </view> 
+      </scroll-view>
+
+
+    </view>
+
+    <view class='bottomStyle3'>
+      <button class='buttonStyle' loading="{{isLoading}}" disabled="{{isdisabled}}" form-type="submit">发起打伞</button>
+    </view>
+
+  </view>
+
+</form>

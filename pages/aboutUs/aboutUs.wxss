@@ -1,0 +1,86 @@
+.midContainer {
+  margin-top: 350rpx;
+}
+
+.logo{
+   position: absolute;
+   width: 128rpx;
+   height: 128rpx;
+   top:50rpx;
+   left: 50%;
+   margin-left: -64rpx;
+   border-radius:32rpx;
+}
+.title{
+   position: absolute;
+   width: 100%;
+   height: 60rpx;
+   top:220rpx;
+  color: black;
+  font-size: 38rpx;
+  text-align: center;
+
+}
+.subtitle{
+   position: absolute;
+   width: 100%;
+   height: 30rpx;
+   top:280rpx;
+  color: gray;
+  font-size: 22rpx;
+  text-align: center;
+
+}
+.lineView{
+   position: absolute;
+   width: 86%;
+   height: 2rpx;
+   top:330rpx;
+  background-color: lightgray;
+  left: 7%;
+ 
+}
+.versions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50rpx;
+  font-size: 38rpx;
+  text-align: center;
+}
+
+.versions-font {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 28rpx;
+}
+
+.statement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50rpx;
+  font-size: 38rpx;
+  text-align: center;
+}
+
+.statement-detail {
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  margin-top: 10rpx;
+  font-size: 28rpx;
+}
+
+.tips {
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  font-size: 38rpx;
+  text-align: center;
+}
+
+.tip {
+  font-size: 28rpx;
+  text-align: center;
+}

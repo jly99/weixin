@@ -1,0 +1,51 @@
+<!-- <view>
+  <text>用户名</text>
+  <input placeholder="请输入用户名" bindinput='username_input'></input>
+
+  <text>密码</text>
+  <input placeholder="请输入密码" password='true' bindinput='password_input'></input>
+
+  <text>手机号码</text>
+  <input placeholder="请输入手机号码" bindinput='phonenumber_input' type='number'></input>
+
+  <text>性别</text>
+  <radio-group class="radio-group" bindchange="sex_input">
+    <label class="radio" wx:for="{{items}}" wx:key="gender">
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group>
+
+
+  <!-- <text>邮箱(需要设定邮箱格式)</text>
+  <input placeholder="邮箱" bindinput='emial_input'></input> -->
+<!-- </view>
+
+<view>
+  <button bindtap='register'>注册</button>
+</view> -->
+
+
+
+<!--pages/login/login.wxml-->
+<text class='title'>快速注册</text>
+<view class='inputView'>
+  <input class='userName' placeholder="请输入用户名" type="text" bindinput="username_input"></input>
+  <input class='phoneNumber' placeholder="请输入手机号码" type="number" bindinput="phonenumber_input"></input>
+    <input class='password' placeholder="请输入密码" password='true' bindinput="password_input"></input>
+  <!-- 
+  <radio-group class="radio-group" bindchange="sex_input">
+    <label class="radio" wx:for="{{items}}" wx:key="gender">
+      <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+    </label>
+  </radio-group> -->
+
+  <view class='userNameLine'></view>
+  <view class='passwordLine'></view>
+  <view class='phoneNumberLine'></view>
+</view>
+
+<view class='registertton' bindtap="register" wx:if="{{enterButtonEnable}}">立即注册</view>
+<view class='registertton_disable' wx:else>立即注册</view>
+
+<view class='registerLine'></view>
+<view class='homeButton'  bindtap="To_login"> 登录 </view>

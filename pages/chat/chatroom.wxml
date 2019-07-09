@@ -1,0 +1,30 @@
+<view class="page-wrap">
+
+  <scroll-view class="chat-container" scroll-y scroll-into-view="{{lastMessageId}}" scroll-top="9999999999">
+    <view wx:for="{{messages}}" wx:for-item="message" wx:key="id" id="{{message.id}}" class="message {{message.type}}">
+      <view wx:if="{{message.type == 'speak'}}" class="user-message {{message.isMe ? 'me' : 'other'}}">
+        <image class="avatar" src="{{message.user.avatarUrl}}" mode="aspectFill"></image>
+        <view class="text">
+          <!-- <view class="nickname">{{message.isMe?message.us.nickName:message.user.nickName}}</view>  -->
+
+          <view class="content" wx:if="{{message.isPic == false}}">{{message.content}}</view>
+
+          <view class="content" wx:else>
+            <image src="{{message.content}}" mode='aspectFit' class="content-picture" bindtap='showPicture' data-picture="{{message.content}}"></image>
+          </view>
+
+        </view>
+      </view>
+      <view wx:if="{{message.type == 'system'}}" class="system-message">
+        {{message.content}}
+      </view>
+    </view>
+  </scroll-view>
+
+  <view class='emptyView'></view>
+  <view class="input-panel">
+    <image class="pic-icon" src='/images/camera.png' mode='aspectFit' bindtap='sendPic'></image>
+    <input type="text" value="{{inputContent}}" bindchange="changeInputContent" bindconfirm="sendMessage" class="send-input"></input>
+    <button bindtap="sendMessage" class="send-btn">发送</button>
+  </view>
+</view>

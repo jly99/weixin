@@ -1,0 +1,36 @@
+<view class='mainView'>
+
+  <view class='rowViewTitleLine'></view>
+
+
+  <view class='location'>{{position_detail}}</view>
+
+  <image class='ownerAvatar' src='{{owner_avatarUrl}}' mode='aspectFill'></image>
+  <view class='owner_nickName'>{{owner_nickName}}</view>
+  <image class='avatarIcon' src="/images/double-right.png" mode='aspectFit'></image>
+
+  <block wx:if="{{!isState1}}">
+    <view class='server_nickName'>{{server_nickName}}</view>
+    <image class='serverAvatar' src='{{server_avatarUrl}}' mode='aspectFill'></image>
+  </block>
+
+  
+
+  <view class='messageStyle'>伞友留言： {{message}}</view>
+
+  <scroll-view wx:if="{{picPaths}}" class="image_box" scroll-x>
+    <view class='imagebackgroundView'>
+      <view wx:for="{{picPaths}}" wx:key="picPaths" class='imageView'>
+        <view class="picPre">
+          <image src="{{item}}" mode="aspectFit" bindtap='preImg' data-img='{{item}}'></image>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+
+
+
+  <view class='enterButton' wx:if="{{isState1}}" bindtap='enterClick'>一起打伞</view>
+  <view class='enterButton' wx:if="{{isState2}}" bindtap='contact_click'>与伞友联系</view>
+
+</view>

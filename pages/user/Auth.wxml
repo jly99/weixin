@@ -1,0 +1,9 @@
+
+<image class='logo' src="/images/logo.jpg" mode='aspectFill'></image>
+<text class='title'>一起打伞吧</text>
+<text class='subtitle'>共享打伞小程序</text>
+<view class='lineView'></view>
+<text class='content'>程序将通过获取以下授权来完善您的信息：</text>
+<text class='content2'>· 获得您的公开信息（昵称、头像等）</text>
+
+<button class='okButton' bindgetuserinfo='allow' open-type='getUserInfo'>允许</button>
